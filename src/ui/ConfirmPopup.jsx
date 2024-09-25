@@ -16,7 +16,7 @@ export default function ConfirmPopup({ message, action, onConfirm, onCancel }) {
       />
 
       {/* Centered popup */}
-      <Container className="fixed inset-0 flex flex-col items-center justify-center gap-4 z-50 h-fit max-w-[600px] p-8">
+      <Container className="fixed inset-0 flex flex-col items-center justify-center gap-4 z-50 h-fit w-80 sm:w-auto sm:max-w-[600px] p-8">
         <h3 className="font-bold text-[1.2rem]">{action}</h3>
         <p className="text-center">{message}</p>
         <div className="flex gap-4 w-full">
